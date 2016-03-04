@@ -1,0 +1,5 @@
+/home/dave/git/wildfly/dave-java-ee7-wildfly-full/dave-java-ee7-wildfly-full-ejb/src/main/java/dave/model/Member.java
+/home/dave/git/wildfly/dave-java-ee7-wildfly-full/dave-java-ee7-wildfly-full-ejb/src/main/java/dave/util/Resources.java
+/home/dave/git/wildfly/dave-java-ee7-wildfly-full/dave-java-ee7-wildfly-full-ejb/src/main/java/dave/service/MemberRegistration.java
+/home/dave/git/wildfly/dave-java-ee7-wildfly-full/dave-java-ee7-wildfly-full-ejb/src/main/java/dave/data/MemberRepository.java
+/home/dave/git/wildfly/dave-java-ee7-wildfly-full/dave-java-ee7-wildfly-full-ejb/src/main/java/dave/data/MemberListProducer.java
