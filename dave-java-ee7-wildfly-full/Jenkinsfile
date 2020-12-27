@@ -1,0 +1,28 @@
+
+node {
+
+
+   
+
+        stage('Checkout') {
+          git url: 'https://github.com/dveselka/wildfly/', credentialsId: 'dave-devops', branch: 'master'
+        }
+
+        stage('Build') {
+          
+          dir('dave-java-ee7-wildfly-full'){
+             withMaven(maven:'local'
+             ) {
+                sh 'pwd'
+                sh 'env'
+                sh 'mvn -X clean package'
+            
+
+                def pom = readMavenPom file:'pom.xml'
+                print pom.version
+                env.version = pom.version
+             }
+          }
+        }
+
+}
